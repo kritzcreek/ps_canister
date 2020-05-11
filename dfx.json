@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "ps_canister": {
+      "frontend": {
+        "entrypoint": "src/ps_canister/public/index.js"
+      },
+      "main": "src/ps_canister/main.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "output": "canisters/"
+    },
+    "start": {
+      "address": "127.0.0.1",
+      "port": 8000,
+      "serve_root": "canisters/ps_canister/assets"
+    }
+  },
+  "dfx": "0.5.7",
+  "version": 1
+}
