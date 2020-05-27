@@ -1,8 +1,4 @@
-{-
-Welcome to a Spago project!
-You can edit this file as you like.
--}
-{ name = "my-project"
+{ name = "ps_canister"
 , dependencies =
   [ "aff"
   , "aff-promise"
@@ -13,5 +9,5 @@ You can edit this file as you like.
   , "psci-support"
   ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 }
