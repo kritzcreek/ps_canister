@@ -8,8 +8,11 @@
   },
   "devDependencies": {
     "@dfinity/agent": "/home/creek/.cache/dfinity/versions/0.5.7/js-user-library",
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
     "terser-webpack-plugin": "2.2.2",
     "webpack": "4.41.3",
-    "webpack-cli": "3.3.10"
+    "webpack-cli": "3.3.10",
+    "nes.css": "^2.3.0"
   }
 }
